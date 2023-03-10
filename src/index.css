@@ -1,0 +1,20 @@
+@import './reset.css';
+@font-face {
+  font-family: Lotus;
+  src: url('./font/B-Lotus.zip');
+}
+:root {
+  --white: #ffffff;
+  --white50: #f0f0f0;
+  --blue: #471aaa;
+}
+body {
+  background-color: var(--white50);
+  display: flex;
+  direction: rtl;
+}
+*,
+body,
+html {
+  font-family: Lotus;
+}
